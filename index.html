@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>PaintJS</title>
 </head>
 <body>
+
+    <div id="contanier">
+        <canvas id="jsCanvas" class="canvas"></canvas>
+        <div class="controls">
+            <div class="range_sec">
+                <input type="range" id="jsRange" min="0.1" max="5" value="2.5" step="0.1" />
+            </div>
+            <div class="btn_sec">
+                <button id="jsMode">FILL</button>
+                <button id="jsSave">SAVE</button>
+            </div>
+            <ul class="colors_list" id="jsColors">
+                <li class="controls_color jsColor"></li>
+                <li class="controls_color jsColor"></li>
+                <li class="controls_color jsColor"></li>
+                <li class="controls_color jsColor"></li>
+                <li class="controls_color jsColor"></li>
+                <li class="controls_color jsColor"></li>
+                <li class="controls_color jsColor"></li>
+                <li class="controls_color jsColor"></li>
+                <li class="controls_color jsColor"></li>
+            </ul>
+        </div>
+    </div>
 
 <script src="./app.js"></script>    
 </body>
