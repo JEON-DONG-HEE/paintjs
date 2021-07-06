@@ -2,7 +2,6 @@ body {display:flex;flex-direction:column;align-items:center;padding:50px 0px;fon
 
 .canvas {width:700px;height:700px;background:#fff;border-radius:15px;-webkit-box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.47);box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.1);}
 
-
 /* range input */
 .controls .range_sec {margin-bottom:20px;}
 
@@ -14,14 +13,5 @@ body {display:flex;flex-direction:column;align-items:center;padding:50px 0px;fon
 /* color of picker */
 .controls .colors_list {display:flex;margin-top:50px;}
 .controls .colors_list li {width:50px;height:50px;border-radius:25px;-webkit-box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.47);box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.1);}
-.controls .colors_list li:nth-child(1) {background:#2c2c2c;}
-.controls .colors_list li:nth-child(2) {background:#ffffff;}
-.controls .colors_list li:nth-child(3) {background:#fc0328;}
-.controls .colors_list li:nth-child(4) {background:#fc6f03;}
-.controls .colors_list li:nth-child(5) {background:#fcce03;}
-.controls .colors_list li:nth-child(6) {background:#17de09;}
-.controls .colors_list li:nth-child(7) {background:#03ddff;}
-.controls .colors_list li:nth-child(8) {background:#0370ff;}
-.controls .colors_list li:nth-child(9) {background:#7804d6;}
 
 
